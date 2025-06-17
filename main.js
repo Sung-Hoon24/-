@@ -16,7 +16,7 @@ let timer = 0; // 장애물 생성 시간
 let obstacleArray = []; // 장애물 배열
 let gameOver = false; // 게임 종료 여부
 let jump = false; // 점프 여부
-let jumpSpeed = 100; // 점프 속도
+let jumpSpeed = 30; // 점프 속도
 
 /** 오디오 객체 생성 및 설정 */
 const jumpSound = new Audio(); // 점프 소리
@@ -86,7 +86,7 @@ const rtan = {
 const OBSTACLE_WIDTH = 70; // 장애물 너비
 const OBSTACLE_HEIGHT = 70; // 장애물 높이
 const OBSTACLE_FREQUENCY = 120; // 장애물 생성 빈도
-const OBSTACLE_SPEED = 17; // 장애물 이동 속도
+const OBSTACLE_SPEED = 100; // 장애물 이동 속도
 
 /** 장애물 클래스 정의 */
 class Obstacle {
